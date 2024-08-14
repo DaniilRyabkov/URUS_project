@@ -17,32 +17,141 @@ ul {
   list-style-type: none;
 }
 
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.3;
+  font-style: normal;
+}
+
 button {
   background-color: transparent;
   padding: 0;
   border: 0;
   cursor: pointer;
 }
-.container{
+
+.container {
   max-width: 1840px;
   padding: 0 10px;
   margin: 0 auto;
 }
-.header{
+
+.header {
   background-image: url(../images/header-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 100vh;
 }
-.header__top{
 
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.menu__btn{
+.menu__btn {
   width: 70px;
+  height: 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.menu__btn span{
-  
+.menu__btn span {
+  background-color: #ff5017;
+  width: 100%;
+  height: 3px;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  height: calc(100vh - 135px);
+}
+
+.title {
+  font-size: 345px;
+  background: linear-gradient(180deg, #000000 0%,
+      #830B02 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  padding-left: 150px;
+  line-height: .8;
+}
+
+.subtitle {
+  font-size: 160px;
+  background: linear-gradient(90deg, #FF5017 0%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  align-self: flex-end;
+  padding-right: 75px;
+  padding-bottom: 50px;
+}
+
+.header__images {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+  bottom: 0;
+  margin: auto;
+}
+
+.info {
+  background-color: #f8f8f8;
+  padding: 170px 0;
+}
+
+.info__title {
+  font-size: 160px;
+  text-align: center;
+  line-height: .8;
+  text-transform: uppercase;
+}
+
+.info__img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.info__content {
+  display: flex;
+  margin-bottom: 170px;
+  padding-left: 155px;
+  padding-right:  100px;
+  gap:94px;
+}
+
+.info__list {
+  column-count: 2;
+  gap:140px;
+
+}
+
+.info__list dt,
+.info__list dd{
+
+display: inline-block;
+}
+
+.info__list-line{
+  margin-bottom: 22px;
+}
+.price{
+  font-size: 46px;
+  margin-bottom: 40px;
+}
+.order{
+  padding: 30px 60px;
+  background: linear-gradient(181.77deg, #FF5017 2.24%, #FF6837 99.25%);
 }

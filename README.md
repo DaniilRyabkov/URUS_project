@@ -1,6 +1,5 @@
 # URUS PROGECT :fire:
-### photo of the site itself >>>
-###### Cross-platform site
+###### Cross-platform site :star2:
 - What does cross-platform affect :grey_question:
 >Site visitors, i.e. Potential clients view website pages on computers, tablets, smartphones and laptops.
 >>Of course, all these devices work on different platforms and operating systems.

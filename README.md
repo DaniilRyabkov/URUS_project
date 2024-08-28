@@ -1,4 +1,5 @@
-:fire: # URUS PROGECT :fire:
+:fire:
+# URUS PROGECT :fire:
 ### photo of the site itself >>>
 ###### Cross-platform site
 - What does cross-platform affect?

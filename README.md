@@ -6,3 +6,9 @@
 >>>Cross-platform is directly responsible for correct operation on most platforms.
 >>>
 ![Frame 3](https://github.com/user-attachments/assets/0f9a9069-ec2c-45a8-88d5-40ba9ef92bb2)
+
+# Conclusion :sparkles: 
+>Thus, the article examined such an important element of site quality as cross-platform.  :star2:
+>> The quality of website layout for various resolutions and platforms has a positive effect on potential buyers. 
+>>> The quality of website layout for various resolutions and platforms has a positive effect on potential buyers. 
+

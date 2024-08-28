@@ -1,4 +1,4 @@
-# URUS PROGECT :fire: :fire:
+# URUS PROGECT :fire: 
 ###### Cross-platform site :star2:
 - What does cross-platform affect :grey_question:
 >Site visitors, i.e. Potential clients view website pages on computers, tablets, smartphones and laptops. 

@@ -105,7 +105,7 @@ button {
   top: 50px;
   bottom: 0;
   margin: auto;
-  max-width: 70%;
+  max-width: 80%;
 }
 
 .info {
@@ -154,6 +154,8 @@ display: inline-block;
 }
 .order{
   padding: 30px 60px;
+  -webkit-appearance: none;
+  -moz-appearance:none;
 
   background: linear-gradient(181.77deg, #FF5017 2.24%,
   #FF6837 99.25%);
@@ -463,6 +465,9 @@ margin-bottom: 20px;
 }
 .order{
   font-size: 18px;
+  -webkit-appearance: none;
+  -moz-appearance:none;
+  text-align: center;
 }
 .form__order{
   width: 100%;

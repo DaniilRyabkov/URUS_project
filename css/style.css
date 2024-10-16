@@ -113,10 +113,13 @@ button {
   padding: 170px 0;
 }
 .info-car {
-  background-color: #13171c;
-  padding: -30px 0;
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
-
+.bacground{
+  background-color: #13171c;
+}
 .info__title {
   font-size: 160px;
   text-align: center;
@@ -126,10 +129,12 @@ button {
 }
 .info__titless{
   text-align: center;
-  margin-bottom: 70px;
+  margin-bottom: 45px;
+  margin-top: 0px;
+  padding-top: 20px;
   text-transform: uppercase;
-  font-size: px;
   color:#ff5017;
+  font-size: 35px;
 }
 
 .info__img {
@@ -144,6 +149,7 @@ button {
   align-items: center;
   justify-content: center;
 }
+
 
 .info__content {
   display: flex;
@@ -232,16 +238,29 @@ margin-bottom: 20px;
   color:#fff;
   text-transform:uppercase;
 }
-.contacts{
-  padding: 170px 0 100px;
+
+.footer__link{
+  color: #818181;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #13171c;
 }
-
+.social{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #13171c;
+}
 .contacts__title{
   text-align: center;
   margin-bottom: 70px;
   text-transform: uppercase;
   font-size: 36px;
+  padding: 170px 0 100px;
   color:#ff5017;
 }
 .contacts__box{
@@ -281,15 +300,16 @@ margin-bottom: 20px;
   max-width: 330px;
 }
 
-.contactss__rules{
-  width: 823px;
-  max-width: 100%;
-  margin: 0 auto;
+.contactsss__info{
+  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
+  font-size: 14px;
   color:white;
+  flex-direction: column;
+  font-size: 20px;
+  padding-top: 30px;
 }
 
 .form{
@@ -328,7 +348,7 @@ margin-bottom: 20px;
   text-align: center;
   padding: 15px 0 90px;
   font-size: 14px;
-  color: #fff;
+  color: #5c5c5c;
   background-color: #13171c;
 }
 
@@ -395,9 +415,6 @@ margin-bottom: 20px;
   padding-right: 0;
   gap:60px;
 }
-.contacts{
-  padding: 100px 0; 
-}
 }
 @media (max-width:1040px){
   .info__gallery img{
@@ -445,7 +462,8 @@ margin-bottom: 20px;
   display: block;
 }
 .contacts__text-rules{
-  padding-top: 20px;
+  padding-top: 20px
+  ;
   padding-bottom: 40px;
 }
 .form__order{
@@ -496,9 +514,7 @@ margin-bottom: 20px;
   font-size: 24px;
   margin-bottom: 20px;
 }
-.contacts{
-  padding: 50px 0;
-}
+
 .contacts__headtext{
   font-size: 18px;
 }

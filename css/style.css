@@ -547,3 +547,46 @@ margin-bottom: 20px;
 .map{
   border: 2px solid black;
 }
+
+.body{
+  padding: 150px;
+  font-family: sans-serif;
+  font-size: 16px;
+  color:#fff;
+}
+.box{
+  width: 350px;
+  text-align: center;
+}
+.button{
+background-color: #ff5017;
+text-transform: uppercase;
+padding: 0.51h 1.51h;
+inline-size: 100%;
+}
+.button:hover,
+.button:focus-visible,
+.menu__link:hover,
+.menu__link:focus-visible{
+  background-color: #FF6837 ;
+}
+.menu{
+  text-transform:uppercase ;
+  line-height: 0;
+  overflow: hidden;
+  color: transparent;
+  transition: line-height .5s,color 5s;
+  background-color: #ff5017;
+}
+menu__item{
+  overflow: hidden;
+}
+.menu__link{
+  display: block;
+  padding: 0.51h;
+}
+
+.button.active ~ .menu{
+  line-height: 1.2;
+  color:#fff
+}

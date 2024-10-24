@@ -20,12 +20,18 @@
         <img class="logo__img" src="images/Lamborghini logo.svg" alt="">
       </a>
       <div class="menu">
-        <button class="menu__btn">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+        <div class="box">
+        <button class="button" aria-expanded="false" aria-controls="list">menu</button>
+        <ul class="menu" id="list" aria-hidden="true">
+          <li class="menu__item"><a href="#1" class="menu__link" tabindex="-1"> Urus</a></li>
+          <li class="menu__item"><a href="#2" class="menu__link" tabindex="-1"> Color</a></li>
+          <li class="menu__item"><a href="#3" class="menu__link" tabindex="-1"> Interior</a></li>
+          <li class="menu__item"><a href="#4" class="menu__link" tabindex="-1"> Overview</a></li>
+          <li class="menu__item"><a href="#5" class="menu__link" tabindex="-1"> Book Urus</a></li>
+        </ul>
       </div>
+      </div>
+
     </div>
     <div class="header__content">
       <h1 class="title">URUS</h1>
